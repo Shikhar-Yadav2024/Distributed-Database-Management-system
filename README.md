@@ -1,4 +1,4 @@
-# Hospital Distributed Database Management System
+   # Hospital Distributed Database Management System
 
 ## 📌 Overview
 This project implements a **Distributed Database Management System (DDBMS)** tailored for hospital management.  
@@ -32,6 +32,12 @@ The system manages:
 ## 🚀 Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/hospital-distributed-database.git
+   git clone https://github.com/Shikhar-Yadav2024/hospital-distributed-database.git
    cd hospital-distributed-database
+## 🔧 How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   mysql -u root -p < schema.sql
+   python hospital_dbms.py
 
