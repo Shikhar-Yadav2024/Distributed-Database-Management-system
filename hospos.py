@@ -11,7 +11,7 @@ try:
     con = sqlcon.connect(
         host="localhost",
         user="root",
-        password="Shikhar@4684",
+        password="Password",
         database="Hospital"
     )
     print("Connection successful!")
@@ -523,4 +523,5 @@ b6.place(x=800,y=500)
 frame=Frame(root,height=600,width=50)
 frame.pack()
 root.resizable(False,False)
+
 root.mainloop()
